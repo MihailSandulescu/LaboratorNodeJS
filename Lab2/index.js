@@ -1,8 +1,8 @@
 const hbs = require('hbs');
 const path = require('path');
 const express = require('express');
-const cheems = require('./cheems');
-const generateMessage = require('./messageGenerator');
+const cheems = require('./apis/cheems');
+const generateMessage = require('./apis/messageGenerator');
 
 const app = express();
 const port = 3000;
